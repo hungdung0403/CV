@@ -1,0 +1,6 @@
+services:
+  python-etl-cv:
+    build: .
+    image: python-etl-cv:latest
+    ports:
+      - "5000:80"
